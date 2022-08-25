@@ -1,0 +1,29 @@
+.signIn-main {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+
+    .infosyLogo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signInForm-wrapper {
+        height: inherit;
+        width: 50%;
+        border-radius: 50% 0 0 50%;
+        background-color: $infosyBlue;
+        display: flex;
+        justify-content: flex-end;
+
+        .signInForm-main {
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+}

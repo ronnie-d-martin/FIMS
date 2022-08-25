@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+$infosyBlue:#14213D;
+$infosyPink: #F8049C;
+$infosyYellow: #FDD54F;
+$infosyOrange: #FD9D4F;
+$infosyWhite: #FFFF;
+
+
+.app-main{
+    height: 100vh;
+}
+
+@import "./signinform.scss";
+@import "./signupform.scss";
+@import "./forgotpass.scss";

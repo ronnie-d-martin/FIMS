@@ -1,0 +1,33 @@
+.signUp-main {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+
+    .signUpForm-wrapper {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5;
+
+    }
+
+    .logo-container {
+        height: 100vh;
+        width: 50%;
+        display: block;
+
+        .secondinfosyLogo {
+            height: inherit;
+            width: inherit;
+            border-radius: 50% 0 0 50%;
+            background-color: $infosyBlue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+    
+        }
+
+    }
+
+}
